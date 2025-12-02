@@ -1,0 +1,36 @@
+:root {
+  /* Backgrounds */
+  --bg-main: #050505;
+  --bg-card: #111111;
+  
+  /* Borders */
+  --border-dim: #27272a;
+  
+  /* Text */
+  --text-primary: #ededed;
+  --text-secondary: #a1a1aa;
+  
+  /* Accents (#ROOT Identity) */
+  --root-cyan: #00f3ff;
+  --root-purple: #bc13fe;
+  
+  /* Status */
+  --success: #00ff94;
+  --error: #ff3333;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: 'Inter', monospace;
+}
+
+.titles&prices{
+    font-family: "JetBrains Mono", monospace;
+}
+
