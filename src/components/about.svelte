@@ -7,7 +7,7 @@
         <div class="about-content">
         <div class="text-content">
             <h3 class="subtitle">Somos #ROOT</h3>
-            <p class="descripti">
+            <p class="description">
                 No diseñamos ropa. Diseñamos hardware textil para los que construyen el código. Sin adornos. Sin permiso.
             </p>
             <p class="tagline">Made in Vzla</p>
@@ -60,4 +60,19 @@
         margin-bottom: 1rem;
         color: var(--text-primary);
     }
+    .description{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.7;
+        color: var(--text-secondary);
+        max-width: 450px;
+    }
+    .tagline{
+        margin-top: 2rem;
+        font-family: 'JetBrains Mono', monospace;
+        color: var(--border-dim);
+        letter-spacing: 0.1em;
+        font-size: 0.9rem;
+    }
+    
 </style>

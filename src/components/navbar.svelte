@@ -4,7 +4,7 @@
     <ul>
         <li>home</li>
         <li>About</li>
-        <li>Products</li>
+        <li><a href="/products" class="link">Products</a></li>
         <li>Contacts</li>
     </ul>
     <div class="btn-container">
@@ -24,6 +24,7 @@
         padding: 0.5rem 0;
         border-bottom: 1px solid var(--border-dim);
         z-index: 10000;
+        top: 0;
     }
     .navbar ul{
         display: flex;
@@ -54,5 +55,8 @@
     }
     div i:hover{
         color: var(--root-cyan);
+    }
+    .link{
+        color: var(--text-primary);
     }
 </style>
